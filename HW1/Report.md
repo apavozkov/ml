@@ -25,13 +25,13 @@
 
 ### Результаты моделей
 ##### Logistic Regression
-Accuracy: 0.7443
-F1-macro: 0.7439
-class1 precision = 0.73
-class1 recall = 0.79
-class1 f1 = 0.75
-class2 precision = 0.77
-class2 recall = 0.70
+Accuracy: 0.7443<br>
+F1-macro: 0.7439<br>
+class1 precision = 0.73<br>
+class1 recall = 0.79<br>
+class1 f1 = 0.75<br>
+class2 precision = 0.77<br>
+class2 recall = 0.70<br>
 class2 f1 = 0.73
 <br>
 Анализ:
@@ -39,21 +39,21 @@ class2 f1 = 0.73
 - class2 чаще ошибочно классифицируется как class1.
 - Качество по классам более менее сбалансировано.
 ##### Decision Tree (без ограничений глубины)
-Accuracy: 0.7245
-F1-macro: 0.7245
-class1 precision = 0.72
-class1 recall = 0.73
-class1 f1 = 0.73
-class2 precision = 0.73
-class2 recall = 0.72
-class2 f1 = 0.72
+Accuracy: 0.7245<br>
+F1-macro: 0.7245<br>
+class1 precision = 0.72<br>
+class1 recall = 0.73<br>
+class1 f1 = 0.73<br>
+class2 precision = 0.73<br>
+class2 recall = 0.72<br>
+class2 f1 = 0.72<br>
 <br>
 Анализ:
 - Модель показвает худшие показатели в сравнении с LR.
 - Ошибки распределены равномерно.
 - Возможно, имеет место переобучение.
 ##### Decision Tree (max_depth=5)
-Accuracy: 0.7802
+Accuracy: 0.7802<br>
 F1-macro: 0.7802<br>
 Это лучший результат среди моделей.
 <br>
