@@ -24,7 +24,7 @@
 - Decision Tree
 
 ### Результаты моделей
-##### Logistic Regression
+#### Logistic Regression
 Accuracy: 0.7443<br>
 F1-macro: 0.7439<br>
 class1 precision = 0.73<br>
@@ -38,7 +38,7 @@ class2 f1 = 0.73<br>
 - Модель лучше распознаёт class1 тк выше recall.
 - class2 чаще ошибочно классифицируется как class1.
 - Качество по классам более менее сбалансировано.
-##### Decision Tree (без ограничений глубины)
+#### Decision Tree (без ограничений глубины)
 Accuracy: 0.7245<br>
 F1-macro: 0.7245<br>
 class1 precision = 0.72<br>
@@ -52,7 +52,7 @@ class2 f1 = 0.72<br>
 - Модель показвает худшие показатели в сравнении с LR.
 - Ошибки распределены равномерно.
 - Возможно, имеет место переобучение.
-##### Decision Tree (max_depth=5)
+#### Decision Tree (max_depth=5)
 Accuracy: 0.7802<br>
 F1-macro: 0.7802<br>
 Это лучший результат среди моделей.
