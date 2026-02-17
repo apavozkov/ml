@@ -32,7 +32,7 @@ class1 recall = 0.79<br>
 class1 f1 = 0.75<br>
 class2 precision = 0.77<br>
 class2 recall = 0.70<br>
-class2 f1 = 0.73
+class2 f1 = 0.73<br>
 <br>
 Анализ:
 - Модель лучше распознаёт class1 тк выше recall.
